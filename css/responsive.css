@@ -66,6 +66,26 @@
         float: none;
         margin-bottom: 10px;
     }
+    .footer ul li {
+        display: inline;
+        padding: 0 15px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 320px){
+    .btn-search2{
+        margin: 50px 0px 0px 5px;
+        width: 70px;
+    }
+    .form-control.box-search1 {
+        float: left;
+        width: 155px;
+    }
+    .footer ul li {
+        display: inline;
+        padding: 0 15px;
+        line-height: 40px;
+    }
 }
 @media screen and (max-width: 767px){
      .center-nav{
@@ -118,7 +138,7 @@
 }
 @media only screen and (min-width: 325px) and (max-width: 480px) {
     .form-control.box-search1 {
-        width: 200px;
+        width: 180px;
     }
     .btn-drop {
         border-radius: 5px;
