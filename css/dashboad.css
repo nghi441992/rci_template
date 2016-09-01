@@ -229,7 +229,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	background:#ebebeb
 }
 .modal-lg {
-    width: 1170px;
+    max-width: 1170px;
 }
 .modal-content{
 	border-radius:0;
@@ -363,4 +363,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 }
 .pull-right-option{
 	float:right;
+}
+.label-login{
+	font-weight: normal;
 }
