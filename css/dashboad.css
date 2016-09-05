@@ -368,3 +368,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 .label-login{
 	font-weight: normal;
 }
+.input-error{
+	padding-top: 10px;
+	color: #f00;
+}
