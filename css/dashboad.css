@@ -366,7 +366,9 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	float:right;
 }
 .label-login{
-	font-weight: normal;
+	font-size: 17px;
+    font-family: "open Sans", arial;
+    font-weight: 500;
 }
 .input-error{
 	padding-top: 10px;
