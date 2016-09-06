@@ -374,3 +374,21 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	padding-top: 10px;
 	color: #f00;
 }
+.alphabet-select > li{
+	float: left;
+    width: 45px;
+    text-align: center;
+}
+.dropdown-menu.alphabet-select{
+	min-width: 272px;
+}
+.dropdown-menu.alphabet-select > li > a:hover{
+    background-color: #ef3838;
+}
+.dropdown-menu.alphabet-select > li > a {
+    padding: 3px 0px;
+    border-radius: 3px;
+}
+.alphabet-select{
+	padding: 0px;
+}
