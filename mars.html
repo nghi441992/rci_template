@@ -66,56 +66,89 @@
                             </div>
                             <div class="form-group form-search-2">
                                 <div class="btn-group">
-                                  	<button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   	 All Alphabetical <span class="caret"></span>
-                                  	</button>
-                                  	<ul class="dropdown-menu alphabet-select">
-                                    	<!-- <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li> -->
-                                        <li><a href="#">A</a></li>
-                                        <li><a href="#">B</a></li>
-                                        <li><a href="#">C</a></li>
-                                        <li><a href="#">D</a></li>
-                                        <li><a href="#">E</a></li>
-                                        <li><a href="#">F</a></li>
-                                        <li><a href="#">G</a></li>
-                                        <li><a href="#">H</a></li>
-                                        <li><a href="#">I</a></li>
-                                        <li><a href="#">J</a></li>
-                                        <li><a href="#">K</a></li>
-                                        <li><a href="#">L</a></li>
-                                        <li><a href="#">M</a></li>
-                                        <li><a href="#">N</a></li>
-                                        <li><a href="#">O</a></li>
-                                        <li><a href="#">P</a></li>
-                                        <li><a href="#">Q</a></li>
-                                        <li><a href="#">R</a></li>
-                                        <li><a href="#">S</a></li>
-                                        <li><a href="#">T</a></li>
-                                        <li><a href="#">U</a></li>
-                                        <li><a href="#">V</a></li>
-                                        <li><a href="#">W</a></li>
-                                        <li><a href="#">X</a></li>
-                                        <li><a href="#">Y</a></li>
-                                        <li><a href="#">Z</a></li>
-                                  	</ul>
+                                  	<!-- <button type="button" class="btn btn-drop dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                            All Alphabetical <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu alphabet-select">
+                                                                            <li><a href="#">A</a></li>
+                                                                            <li><a href="#">B</a></li>
+                                                                            <li><a href="#">C</a></li>
+                                                                            <li><a href="#">D</a></li>
+                                                                            <li><a href="#">E</a></li>
+                                                                            <li><a href="#">F</a></li>
+                                                                            <li><a href="#">G</a></li>
+                                                                            <li><a href="#">H</a></li>
+                                                                            <li><a href="#">I</a></li>
+                                                                            <li><a href="#">J</a></li>
+                                                                            <li><a href="#">K</a></li>
+                                                                            <li><a href="#">L</a></li>
+                                                                            <li><a href="#">M</a></li>
+                                                                            <li><a href="#">N</a></li>
+                                                                            <li><a href="#">O</a></li>
+                                                                            <li><a href="#">P</a></li>
+                                                                            <li><a href="#">Q</a></li>
+                                                                            <li><a href="#">R</a></li>
+                                                                            <li><a href="#">S</a></li>
+                                                                            <li><a href="#">T</a></li>
+                                                                            <li><a href="#">U</a></li>
+                                                                            <li><a href="#">V</a></li>
+                                                                            <li><a href="#">W</a></li>
+                                                                            <li><a href="#">X</a></li>
+                                                                            <li><a href="#">Y</a></li>
+                                                                            <li><a href="#">Z</a></li>
+                                    </ul> -->
+                                    <select id="select-apla">
+                                        <option value="" selected>All Alphabetical</option>
+                                        <option value="a">A</option>
+                                        <option value="b">B</option>
+                                        <option value="c">C</option>
+                                        <option value="d">D</option>
+                                        <option value="e">E</option>
+                                        <option value="f">F</option>
+                                        <option value="g">G</option>
+                                        <option value="h">H</option>
+                                        <option value="i">I</option>
+                                        <option value="j">J</option>
+                                        <option value="k">K</option>
+                                        <option value="l">L</option>
+                                        <option value="m">M</option>
+                                        <option value="n">N</option>
+                                        <option value="o">O</option>
+                                        <option value="p">P</option>
+                                        <option value="q">Q</option>
+                                        <option value="r">R</option>
+                                        <option value="s">S</option>
+                                        <option value="t">T</option>
+                                        <option value="u">U</option>
+                                        <option value="v">V</option>
+                                        <option value="w">W</option>
+                                        <option value="x">X</option>
+                                        <option value="y">Y</option>
+                                        <option value="z">Z</option>
+                                    </select>
                                 </div>
                                 <div class="btn-group">
-                                  	<button type="button" class="btn btn-drop btn-drop2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   	 All Status <span class="caret"></span>
-                                  	</button>
-                                  	<ul class="dropdown-menu">
-                                    	<li><a href="#">DRAFT</a></li>
-                                    	<li><a href="#">READY</a></li>
-                                    	<li><a href="#">PROD-D</a></li>
-                                        <li><a href="#">PROD-Z</a></li>
-                                        <li><a href="#">EDIT</a></li>
-                                    	<li role="separator" class="divider"></li>
-                                    	<li><a href="#">UPDATE</a></li>
-                                  	</ul>
+                                  	<!-- <button type="button" class="btn btn-drop btn-drop2 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                            All Status <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                                                            <li><a href="#">DRAFT</a></li>
+                                                                            <li><a href="#">READY</a></li>
+                                                                            <li><a href="#">PROD-D</a></li>
+                                                                            <li><a href="#">PROD-Z</a></li>
+                                                                            <li><a href="#">EDIT</a></li>
+                                                                            <li role="separator" class="divider"></li>
+                                                                            <li><a href="#">UPDATE</a></li>
+                                    </ul> -->
+                                    <select id="select-status">
+                                        <option value="" selected>All Status</option>
+                                        <option value="darft">DRAFT</option>
+                                        <option value="ready">READY</option>
+                                        <option value="prod-d">PROD-D</option>
+                                        <option value="prod-z">PROD-Z</option>
+                                        <option value="edit">EDIT</option>
+                                        <option value="update">UPDATE</option>
+                                    </select>
                                 </div>
                                 <button type="button" class="btn btn-search122 btn-search2">Search</button>
                             </div>

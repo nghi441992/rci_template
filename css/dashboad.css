@@ -374,21 +374,88 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	padding-top: 10px;
 	color: #f00;
 }
-.alphabet-select > li{
-	float: left;
-    width: 45px;
-    text-align: center;
+ /*.alphabet-select > li{
+  	float: left;
+     width: 45px;
+     text-align: center;
+  }
+  .dropdown-menu.alphabet-select{
+  	min-width: 272px;
+  }
+  .dropdown-menu.alphabet-select > li > a:hover{
+     background-color: #ef3838;
+  }
+  .dropdown-menu.alphabet-select > li > a {
+     padding: 3px 0px;
+     border-radius: 3px;
+  }
+  .alphabet-select{
+  	padding: 0px;
+  } */ 
+#select-apla{
+    background: #262626;
+    width: auto;
+    height: 48px;
+  	border-radius: 20px 0 0 20px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-right: 1px #000 solid;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+    font-size: 14px;
+    text-align: left;
 }
-.dropdown-menu.alphabet-select{
-	min-width: 272px;
+#select-apla option{
+    color: #262626;
+    float: left;
+    min-width: 160px;
+    padding: 20px 5px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
-.dropdown-menu.alphabet-select > li > a:hover{
-    background-color: #ef3838;
+#select-status{
+	background: #262626;
+    width: auto;
+    height: 48px;
+  	border-radius: 0px 0 0 0px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-right: 1px #000 solid;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+    font-size: 14px;
+    text-align: left;
 }
-.dropdown-menu.alphabet-select > li > a {
-    padding: 3px 0px;
-    border-radius: 3px;
+#select-status option{
+    color: #262626;
+    float: left;
+    min-width: 160px;
+    padding: 20px 5px;
+    margin: 10px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
-.alphabet-select{
-	padding: 0px;
+.btn{
+	outline: none !important;
 }
