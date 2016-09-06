@@ -490,3 +490,20 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 .btn{
 	outline: none !important;
 }
+.modal-search{
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://sampsonresume.com/labs/pIkfp.gif') 
+                50% 50% 
+                no-repeat;
+}
+.text-red{
+	color: #f00;
+	text-align: center;
+}
