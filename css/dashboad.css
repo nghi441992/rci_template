@@ -111,6 +111,9 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 .btn-search1:hover{
 	background:#fbb034
 }
+.btn-search2:hover{
+	background:#fbb034
+}
 .btn-drop{
 	background:#262626;
 	width:180px;
@@ -396,7 +399,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
     background: #262626;
     width: auto;
     height: 48px;
-  	border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 20px;
     color: #fff;
     font-size: 16px;
     border: none;
@@ -405,6 +408,13 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
     outline: none;
     font-size: 14px;
     text-align: left;
+    background-image: url('../images/images/bg-select.png');
+    background-repeat: no-repeat;
+    background-position: 130px;
+    width: 150px;
+    padding: 14px;
+    -webkit-appearance: none;
+    outline: none;
 }
 #select-apla option{
     color: #262626;
@@ -426,9 +436,11 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 }
 #select-status{
 	background: #262626;
-    width: auto;
     height: 48px;
   	border-radius: 0px 0 0 0px;
+    color: #fff;
+    font-size: 14px;
+    height: 48px;
     color: #fff;
     font-size: 16px;
     border: none;
@@ -437,6 +449,13 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
     outline: none;
     font-size: 14px;
     text-align: left;
+    background-image: url('../images/images/bg-select.png');
+    background-repeat: no-repeat;
+    background-position: 130px;
+    width: 150px;
+    padding: 14px;
+    -webkit-appearance: none;
+    outline: none;
 }
 #select-status option{
     color: #262626;
