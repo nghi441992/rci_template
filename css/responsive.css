@@ -148,6 +148,7 @@
         margin-top: 15px;
         width: 150px;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
     .btn-group {
         float: left;
@@ -155,6 +156,18 @@
     .btn-search2 {
         margin: 50px 0px 0px 10px;
         width: 90px;
+    }
+    .box-alphabet {
+        color: #fff;
+        background: #262626;
+        border: 0px;
+        background-image: url('../images/images/bg-select.png');
+        background-repeat: no-repeat;
+        background-position: 118px;
+        width: 130px;
+        -webkit-appearance: none;
+        outline: none;
+        text-align: left;
     }
 }
 @media all and (max-width: 1024px) {

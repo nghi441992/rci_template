@@ -116,7 +116,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 }
 .btn-drop{
 	background:#262626;
-	width:180px;
+	width:190px;
 	height:48px;
 	border-radius:20px 0 0 20px;
 	color:#fff;
@@ -377,7 +377,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	padding-top: 10px;
 	color: #f00;
 }
- /*.alphabet-select > li{
+.alphabet-select > li{
   	float: left;
      width: 45px;
      text-align: center;
@@ -394,7 +394,19 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
   }
   .alphabet-select{
   	padding: 0px;
-  } */ 
+  }
+  .box-alphabet{
+    color: #fff;
+    background: #262626;
+    border: 0px;
+    background-image: url('../images/images/bg-select.png');
+    background-repeat: no-repeat;
+    background-position: 127px;
+    width: 140px;
+    -webkit-appearance: none;
+    outline: none;
+    text-align: left;
+  }
 #select-apla{
     background: #262626;
     width: auto;
@@ -474,7 +486,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
-}
+}	
 .btn{
 	outline: none !important;
 }
