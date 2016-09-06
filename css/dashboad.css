@@ -491,7 +491,7 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 	outline: none !important;
 }
 .modal-search{
-    display:    none;
+    display:    block;
     position:   fixed;
     z-index:    1000;
     top:        0;
