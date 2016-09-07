@@ -490,8 +490,9 @@ body, table, div, form, ul, li, tr, td, a, span, h1, h2, h3, h4, h5 {
 .btn{
 	outline: none !important;
 }
+/* popup search */
 .modal-search{
-    display:    block;
+    display:    none;
     position:   fixed;
     z-index:    1000;
     top:        0;
